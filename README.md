@@ -16,8 +16,8 @@ For the results mentioned in the paper, randomly down-sampled news ids provided 
 
 
 ## To Run:
-To use this dataset, un-zip the file `nx_network_data.zip` file in `data` directory and one can use an example in `load_dataset.py` to load the dataset.
 
+- To use this dataset, un-zip the file `nx_network_data.zip` file in `data` directory and one can use an example in `load_dataset.py` to load the dataset.
 - Install the dependencies in `requirements.txt` first
 - To extract features and run the model, use `basic_model.py`'s main function or run `FN.ipynb` cells. 
 - Function `get_classificaton_results_tpnf_by_time` in `basic_model` can be used to prune the graphs by time and work on the pruned dataset.
